@@ -93,6 +93,8 @@ const Card2 = () => {
             <div>
                 <p>{`Experienced in full stack web development with Next.js, React, Express, and SolidJS (this site). Proficient in TypeScript, Web Workers, Wasm, Docker, Prisma, Redis, and WebSockets.`}</p>
             </div>
+
+            <Button onClick={() => window.open("/CV.pdf", '_blank')}>CV</Button>
         </Box>
     </div>
 }

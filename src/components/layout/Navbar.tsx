@@ -17,9 +17,7 @@ const Navbar: Component<NavbarProps> = (props) => {
             <Button>HOME</Button>
         </A>
 
-        <A href="/info">
-            <Button>INFO</Button>
-        </A>
+        <Button onClick={() => window.open("/CV.pdf", '_blank')}>DOWNLOAD CV</Button>
     </Box>
 }
 
