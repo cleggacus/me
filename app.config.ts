@@ -1,10 +1,9 @@
 import { defineConfig } from "@solidjs/start/config";
-import vercel from "solid-start-vercel";
+import { cloudflare } from "unenv";
 
 export default defineConfig({
-    vite: {
-        plugins: [
-            vercel({ edge: true })
-        ],
-    }
+  server: {
+    preset: "cloudflare-pages",
+    unenv: cloudflare,
+  },
 });
