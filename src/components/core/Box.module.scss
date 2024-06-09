@@ -1,0 +1,10 @@
+.container {
+    border-width: 5px;
+    border-style: solid;
+    border-color: var(--fg-color-1);
+    background-color: var(--bg-color-2);
+}
+
+.container.shadow {
+    box-shadow: 10px 10px var(--fg-color-1);
+}
